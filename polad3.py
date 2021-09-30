@@ -58,3 +58,4 @@ for i in model.layers:
     ilk_gizli_katman=model.layers[0].get_weights()
     ikinci_gizli_katman=model.layers[1].get_weights()
     cikti_katman=model.layers[2].get_weights()
+    
