@@ -81,3 +81,4 @@ kfold = KFold(n_splits=10)
 results = cross_val_score(pipeline, X_train, y_train, cv=kfold)
 print("Standardized: %.2f (%.2f) MSE" % (results.mean(), results.std()))
 #performans değerlendirme
+#polad
